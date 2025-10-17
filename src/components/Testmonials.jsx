@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react'
 
-const Stories = () => {
+const Testmonials = () => {
   return (
     <section className="py-24 bg-background">
-      <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4">
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Success Stories
+            What Our Clients Say
           </h1>
           <p className="text-xl text-muted-foreground">
-            Real results from businesses we've helped transform
+           Don't just take our word for it - hear from the businesses we've helped succeed
           </p>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Stories;
+export default Testmonials
