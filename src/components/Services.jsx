@@ -13,28 +13,34 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="max-w-sm rounded overflow-hidden shadow-lg">
-       
-        <div className="px-6 py-4">
-          <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
-          <p className="text-gray-700 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Voluptatibus quia, nulla! Maiores et perferendis eaque,
-            exercitationem praesentium nihil.
-          </p>
-        </div>
-        <div className="px-6 pt-4 pb-2">
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #photography
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #travel
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #winter
-          </span>
-        </div>
-      </div>
+<div className="grid grid-cols-3 gap-4">
+    <div>
+        <h4>Ui/UX Design</h4>
+        <p>Beautiful, intuitive interfaces that delight users and drive engagement through thoughtful design.</p>
+    </div>
+     <div>
+        <h4>web Design</h4>
+        <p>Stunning, responsive websites that capture your brand and convert visitors into customers.</p>
+    </div>
+     <div>
+        <h4>Mobile App Design</h4>
+        <p>Native-feeling mobile experiences optimized for iOS and Android platforms.</p>
+    </div>
+     <div>
+        <h4>Design Systems</h4>
+        <p>Scalable, consistent design frameworks that streamline development and maintain brand unity.</p>
+    </div>
+     <div>
+        <h4>Prototyping</h4>
+        <p>Interactive prototypes that bring ideas to life and validate concepts before development.</p>
+    </div>
+     <div>
+        <h4>User Research</h4>
+        <p>Data-driven insights into user behavior to create experiences that truly resonate.</p>
+    </div>
+
+</div>
+     
     </section>
   );
 };
