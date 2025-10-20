@@ -10,7 +10,7 @@ const Header = () => {
         >
           <div className="flex lg:flex-1 gap-x-6">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Ziwatt Technologies</span>
               <img
                 src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
                 alt=""
@@ -34,6 +34,13 @@ const Header = () => {
             </a>
             <a href="#" className="text-sm leading-6 font-semibold">
               Contact
+            </a>
+             <a
+              href="#"
+              className="inline-flex items-center px-2 py-1 rounded-md bg-indigo-600 text-white font-semibold shadow-sm hover:bg-indigo-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-indigo-500 transition-colors duration-150"
+              role="button"
+            >
+              Get Started
             </a>
           </div>
         </nav>

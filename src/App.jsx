@@ -7,7 +7,13 @@ import Testmonials from "./components/Testmonials";
 
 function App() {
   return (
-    <div className="">
+    <div>
+       <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="block max-w-sm p-12 bg-white border border-gray-200 rounded-lg hover:bg-purple-200 transition-all duration-500 hover:scale-110 shadow-md">
+        Hover me ✨
+      </div>
+    </div>
+
       <Header />
       <Hero />
       <Services />
