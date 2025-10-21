@@ -13,8 +13,9 @@ const Services = () => {
           </p>
         </div>
       </div>
-
-      <div className="grid grid-cols-3 gap-4">
+  {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div> */}
+   
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="block max-w-sm p-12 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <div className="flex flex-col space-y-1.5 p-6">
             <h4 className="p-3 font-bold">UI/UX Design</h4>
@@ -63,18 +64,18 @@ const Services = () => {
           </div>
         </div>
     
-      <div className="relative block max-w-sm p-12 rounded-lg overflow-hidden group transition-all duration-700 transform hover:scale-105">
+      {/* <div className="relative block max-w-sm p-12 rounded-lg overflow-hidden group transition-all duration-700 transform hover:scale-105">
         {/* Gradient background (fades in on hover) */}
         <div className="absolute inset-0 bg-gradient-to-br from-purple-500 to-pink-500 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
 
         {/* Card content */}
-        <div className="relative rounded-lg bg-white border border-gray-200 rounded-lg p-12 shadow-md transition-all duration-700 ">
+        {/* <div className="relative rounded-lg bg-white border border-gray-200 rounded-lg p-12 shadow-md transition-all duration-700 ">
           <h2 className="text-lg font-semibold text-gray-800 text-center">Hover me ✨</h2>
           <p className="text-gray-600 text-center mt-2">
             Watch the purple-pink gradient fade in smoothly!
           </p>
-        </div>
-      </div>
+        </div> 
+      </div> */}
     
       <div className="block max-w-sm p-12 rounded-lg bg-white border border-gray-200  hover:bg-purple-200 transition-all duration-500 hover:scale-110 shadow-md">
           {/* <div class="rounded-lg border text-card-foreground shadow-sm group hover:shadow-glow transition-all duration-500 border-border hover:border-primary/50 bg-gradient-card hover:scale-105 animate-fade-in" style="animation-delay: 0s;"> */}
