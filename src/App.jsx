@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Stories from "./components/Stories";
 import Testmonials from "./components/Testmonials";
 import Transform from "./components/Transform";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Stories/>
       <Testmonials/>
       <Transform />
+      <Footer/>
     </div>
   );
 }
