@@ -1,4 +1,11 @@
 import React from "react";
+import quotesIcon from "../assets/quotes.svg";
+import laptopIcon from "../assets/laptop.svg";
+import pieIcon from "../assets/pie.svg";
+import mobileIcon from "../assets/mobile.svg";
+import stackIcon from "../assets/stack.svg";
+import figmaIcon from "../assets/figma.svg";
+ import peopleIcon from "../assets/people.svg";
 
 const Services = () => {
   return (
@@ -18,6 +25,7 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="block max-w-sm p-12 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <div className="flex flex-col space-y-1.5 p-6">
+            <img src={quotesIcon} alt="Quotes" className="w-10" />
             <h4 className="p-3 font-bold">UI/UX Design</h4>
             <p className="text-muted-foreground text-base leading-relaxed">
               Beautiful, intuitive interfaces that delight users and drive
@@ -28,6 +36,7 @@ const Services = () => {
 
         <div className="block max-w-sm p-12 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <div className="flex flex-col space-y-1.5 p-6">
+               <img src={laptopIcon} alt="Quotes" className="w-10" />
             <h4 className="p-3 font-bold">Web Design</h4>
             <p className="text-muted-foreground text-base leading-relaxed">
               Stunning, responsive websites that capture your brand and convert
@@ -38,6 +47,7 @@ const Services = () => {
 
         <div className="block max-w-sm p-12 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <div className="flex flex-col space-y-1.5 p-6">
+               <img src={mobileIcon} alt="Quotes" className="w-10" />
             <h4 className="p-3 font-bold">Mobile App Design</h4>
             <p className="text-muted-foreground text-base leading-relaxed">
               Native-feeling mobile experiences optimized for iOS and Android
@@ -47,6 +57,7 @@ const Services = () => {
         </div>
         <div className="block max-w-sm p-12 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <div className="flex flex-col space-y-1.5 p-6">
+               <img src={stackIcon} alt="Quotes" className="w-10" />
             <h4 className="p-3 font-bold">Design Systems</h4>
             <p className="text-muted-foreground text-base leading-relaxed">
               Scalable, consistent design frameworks that streamline development
@@ -56,6 +67,7 @@ const Services = () => {
         </div>
         <div className="block max-w-sm p-12 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <div className="flex flex-col space-y-1.5 p-6">
+               <img src={figmaIcon} alt="Quotes" className="w-10" />
             <h4 className="p-3 font-bold">Prototyping</h4>
             <p className="text-muted-foreground text-base leading-relaxed">
               Interactive prototypes that bring ideas to life and validate
@@ -80,6 +92,7 @@ const Services = () => {
       <div className="block max-w-sm p-12 rounded-lg bg-white border border-gray-200  hover:bg-purple-200 transition-all duration-500 hover:scale-110 shadow-md">
           {/* <div class="rounded-lg border text-card-foreground shadow-sm group hover:shadow-glow transition-all duration-500 border-border hover:border-primary/50 bg-gradient-card hover:scale-105 animate-fade-in" style="animation-delay: 0s;"> */}
           <div className="flex flex-col space-y-1.5 p-6">
+               <img src={peopleIcon} alt="Quotes" className="w-10" />
           <h4 className="p-3 font-bold">User Research</h4>
           <p className="text-muted-foreground text-base leading-relaxed">
             Data-driven insights into user behavior to create experiences that

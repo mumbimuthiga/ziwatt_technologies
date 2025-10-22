@@ -42,7 +42,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="mt-12 pt-8 border-t border-border text-center text-gray"><p>© 2025 Ziwatt Technologies. All rights reserved.</p></div>
+      <div class="mt-12 pt-8 border-t border-border text-center text-gray">
+        <p className="p-2">© 2025 Ziwatt Technologies. All rights reserved.</p>
+        </div>
     </section>
   );
 };
