@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Menu, X } from "lucide-react"; // install via: npm install lucide-react
+import { Menu, X } from "lucide-react"; 
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

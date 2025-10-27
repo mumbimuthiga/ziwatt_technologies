@@ -7,7 +7,9 @@ const Footer = () => {
   return (
     <section>
       <div className="w-full bg-white-800 text-black py-10 px-6 sm:px-6 lg:px-8">
-        <div className="grid grid cols-1 md grid grid-cols-4 gap-8">
+        {/* <div className="grid grid-cols-1 sm grid grids-cols-4 md  gap-4 pt-6 border-t border-gray-200"> */}
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 pt-6 border-t border-gray-200">
+
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-black">Ziwatt Technologies</h3>
             <p className="text-muted-foreground">
