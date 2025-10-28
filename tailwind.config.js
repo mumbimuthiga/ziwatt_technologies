@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#7C3AED', // purple glow color
+        primary: '#67E8F9', // purple glow color
         border: '#E5E7EB', // light gray border color
       },
       boxShadow: {

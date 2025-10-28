@@ -2,44 +2,44 @@ export default function Testimonials() {
   const testimonials = [
     {
       quote: "Their team transformed our entire infrastructure. The results exceeded all expectations, and their support throughout the process was exceptional.",
-      name: "Sarah Chen",
-      role: "CTO, TechCorp Industries",
+      name: "Stacy Cherotich",
+      role: "CTO, Intelli+ Limited",
       initials: "SC",
       color: "from-pink-500 to-orange-500"
     },
     {
-      quote: "Working with this team has been a game-changer. Their expertise in cloud solutions helped us scale globally while reducing costs significantly.",
-      name: "Michael Rodriguez",
-      role: "CEO, Global Finance Solutions",
-      initials: "MR",
+      quote: "We approached Ziwatt Technologies with a complex software challenge, and they delivered beyond expectations. Their innovative approach and technical expertise helped us streamline our operations and save costs.",
+      name: "Joan Nyawira",
+      role: "CEO, Joan Coaching",
+      initials: "JN",
+      color: "from-pink-500 to-orange-500"
+    },
+    {
+      quote: "The system they built for us is not only easy to use but also scalable as our business grows. We truly appreciate their commitment to quality and long-term partnership.",
+      name: "Emily Kimeli",
+      role: "Operations Director, EduNova",
+      initials: "EK",
       color: "from-pink-500 to-orange-500"
     },
     {
       quote: "The custom solution they built for us is exactly what we needed. Their attention to detail and commitment to quality is unmatched.",
-      name: "Emily Watson",
+      name: "Emily Wanjiru",
       role: "Operations Director, InnovateCo",
       initials: "EW",
       color: "from-pink-500 to-orange-500"
     },
     {
-      quote: "The custom solution they built for us is exactly what we needed. Their attention to detail and commitment to quality is unmatched.",
-      name: "Emily Watson",
-      role: "Operations Director, InnovateCo",
-      initials: "EW",
+      quote: "Their support team is incredible! From development to deployment, they were responsive, transparent, and genuinely invested in our success.",
+      name: "Peter Gatanga",
+      role: "Head of IT, Innovatus",
+      initials: "PG",
       color: "from-pink-500 to-orange-500"
     },
     {
-      quote: "The custom solution they built for us is exactly what we needed. Their attention to detail and commitment to quality is unmatched.",
-      name: "Emily Watson",
-      role: "Operations Director, InnovateCo",
-      initials: "EW",
-      color: "from-pink-500 to-orange-500"
-    },
-    {
-      quote: "The custom solution they built for us is exactly what we needed. Their attention to detail and commitment to quality is unmatched.",
-      name: "Emily Watson",
-      role: "Operations Director, InnovateCo",
-      initials: "EW",
+      quote: "The developers at Ziwatt Technologies are some of the best we’ve worked with. They have a deep understanding of both backend systems and user experience design.",
+      name: "Robert K",
+      role: "CTO,HB Limited ",
+      initials: "RK",
       color: "from-pink-500 to-orange-500"
     }
   ];
